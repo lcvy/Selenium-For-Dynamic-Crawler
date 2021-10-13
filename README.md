@@ -37,3 +37,14 @@
 改进方向 --- 刷新以及动作解耦
 
 未完成 --- 提交的数据单是否存在隐参以及提交的json文件细节
+
+---2021.10.13---
+pyautogui --- Python默认GUI库，具有点击等动作
+pyperclip --- 用于复制和粘贴剪贴板功能
+
+例：
+import pyperclip
+
+pyperclip.copy('正在进行发中文试验，看到请忽略，更不要骂傻逼') # 复制
+pyautogui.hotkey('ctrl', 'v') # 按下组合键的方法，ctrl+v粘贴
+pyautogui.press('enter') # 按下按键
